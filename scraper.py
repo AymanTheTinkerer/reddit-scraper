@@ -3,7 +3,6 @@ import pandas as pd
 import private
 
 #get this data from reddit https://www.reddit.com/prefs/apps -> create app
-reddit = praw.Reddit(client_id='hiFZ7VVxV-yU-7-_AZwI9Q', client_secret='ylRWLBfWfzZcZKE-fqyou90zW5l0bg', user_agent='webscraper')
 reddit = praw.Reddit(client_id=private.client_id, client_secret=private.client_secret, user_agent=private.user_agent)
 
 subreddit = reddit.subreddit('climatechange')
